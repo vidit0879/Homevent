@@ -98,26 +98,6 @@ const HeroSection = () => {
           Register Now <ArrowRight className="ml-2 h-5 w-5" />
         </Button>
       </div>
-
-      {/* Right Section */}
-      <div className="w-full lg:w-1/2 flex flex-col items-center mt-0 lg:mt-0 transition-all duration-150"  data-aos="fade-left"
-          data-aos-delay="200"
-          data-aos-duration="1000">
-            <div className="text-2xl font-semibold text-[#354FAE] mb-4 text-center">
-              {slide.heading}
-            </div>
-            <img
-              src={slide.image}
-              alt={slide.alt}
-              className="w-full max-w-xl object-contain rounded-xl shadow-lg"
-            />
-            <div className="mt-6 text-center relative w-full max-w-xl">
-              <div className="text-xl font-medium text-[#354FAE] mt-2">
-                <span className="block">↓</span>
-                {slide.subtext}
-              </div>
-            </div>
-        </div>
     </section>
   );
 };
